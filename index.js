@@ -3,7 +3,11 @@ let image = document.querySelector('#pet');
 
 
 // Obtain the 'shrink-grow' button, and assign it to the changeSize variable
-let changeSize = document.querySelector ('shrink-grow')
+let changeSize = document.querySelector('#shrink-grow');
+
+
+
+
 
 //DO NOT CHANGE THE FOLLOWING CODE
 changeSize.addEventListener("click", function() {
